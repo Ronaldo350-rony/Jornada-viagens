@@ -36,9 +36,3 @@ select {
   padding: 0;
   box-sizing: border-box;
 }
-
-h1 {
-  font-family: "motserrat";
-  font-weight: var(--title-weight);
-  color:  var(--primary-color);
-}
