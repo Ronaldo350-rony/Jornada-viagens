@@ -1,14 +1,11 @@
 header {
- 
   background-color: var(--background-tertiary-color);
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: 38px 48px;
- 
-
-
+  position: relative;
 }
 .logo {
   display: inline-block;
@@ -16,12 +13,28 @@ header {
   height: 64px;
   margin: 37px 0 0 48px;
 }
- nav{
-    display: none;
- }
-.navigation-menu{
-    margin-top:50px;
+nav {
+  display: none;
 }
- input[type="checkbox"]:checked ~ nav {
-    display: block;
- }
+.navigation-menu {
+  margin-top: 50px;
+}
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+}
+.list-links {
+  list-style: none;
+  font-family: "monterrat";
+}
+.list-links li{
+   margin: 16px 0;
+}
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
