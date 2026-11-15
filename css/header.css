@@ -46,7 +46,7 @@ input[type="checkbox"]:checked ~ nav {
   font-weight: var(--menu-text-weight);
   font-size: 24px;
 }
-.img-desktop{
+.img-desktop {
   display: none;
 }
 
@@ -70,8 +70,11 @@ input[type="checkbox"]:checked ~ nav {
   .navigation-menu ul li {
     margin-top: 0;
   }
-  .img-desktop{
+  .img-desktop {
     display: none;
+  }
+  .img-mobile {
+    margin-top: -25px;
   }
 }
 
